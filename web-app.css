@@ -1,78 +1,17 @@
-/* Hello World CSS */
+/* web-app.css CSS */
 
 /* don't forget to validate at https://jigsaw.w3.org/css-validator/ */
 
 body {
-  background: blue;
+  background-color: blue;
   font-size: 16px;
-  height: 100vh; /* trick to make the "page" the full height */
+  height: 100vh; /* make the "page" the full height */
 }
 
-* {
-    color: red !important;
+.web-app {
+    width: 50%;
+    margin: 0 auto;
+    border:  2px solid #000000;
 }
-
-p {
-    font-size: 2em;
-    color: #00FF00;
-}
-
-h1 {
-    color: green;
-}
-
-h2 {
-    color: yellow;
-}
-
-#angry-face {
-    color: #990099;
-    font-size: 10em;
-}
-
-.row {}
-
-.col-sm-6 {
-    height: 100vh;
-}
-
-#hello-world-column1 {
-    background-image: url("kittens.jpg");
-    background-size: cover;
-}
-
-#hello-world-column2 {
-    background-image: url("elephants.jpg");
-    background-size: cover;
-}
-
-#iphone {
-    border-radius: 10px;
-    border: 5px solid red;
-}
-
-#handset {
-    border-radius: 20px;
-    border: 10px dashed blue;
-}
-
-#iphone2 {
-    border: 10px solid black;
-}
-
-#handset2 {
-    border: 5px dashed green;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    border-radius: 50% !important;
-}
-
-img.danger {
-    border: 1px solid red;
-}
-
 
 

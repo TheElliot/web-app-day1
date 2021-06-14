@@ -1,61 +1,31 @@
 <!doctype html>
 
-<!-- Hello World HTML -->
+<!-- My App HTML -->
 <!-- don't forget to validate at https://validator.w3.org -->
 
 <html lang="en">
 
     <head>
-        <!-- Where CSS and Meta Information Goes -->
+        <!-- This tells the web browser to use the emoji character set -->
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
         <!-- The text the user sees in browser tab -->
-        <title>Hello World 1.0</title>
-
-        <!-- this line is to include the FontAwesome icon set -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
-
-        <!-- this line is to include Bootstrap formatting -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>My App</title>
 
         <!-- This is how the web page knows about YOUR CSS file! -->
-        <link rel="stylesheet" type="text/css" href="hello-world.css"/>
+        <link rel="stylesheet" type="text/css" href="my-app.css"/>
 
     </head>
     <body>
         <!-- This is where all the VISIBLE web page content goes -->
 
         <!-- outermost responsive container -->
-        <div class="container-fluid">
+        <div class="my-app">
 
-            <!-- responsive row -->
-            <div id="hello-world-row" class="row row-eq-height">
-
-                <!-- responsive column that fills half of desktop screen -->
-                <div id="hello-world-column1" class="col-sm-6">
-
-                    <!-- the element accessed in our JavaScript "click" -->
-                    <p>Initial Left-Column Text in HTML</p>
-                    <img id="handset" src="handset.jpg" alt="handset">
-                </div>
-
-                <!-- responsive column that fills half of desktop screen -->
-                <div id="hello-world-column2" class="col-sm-6">
-
-                    <h1>Initial Header</h1>
-                    <h2>Initial Sub-Header</h2>
-                    <p>Initial Right-Column Text in HTML</p>
-                    <img id="iphone" src="iphone.jpg" alt="iphone">
-
-                    <!-- icon here for no reason just to demonstrate -->
-                    <i class="far fa-smile-wink"></i>
-                </div>
-            </div>
         </div>
 
         <!-- This is how the web page knows about YOUR JavaScript file! -->
-        <script src="hello-world.js"></script>
+        <script src="my-app.js"></script>
     </body>
 
 </html>
